@@ -23,7 +23,7 @@ This library provides logging utilities for Rocq, as well as methods for nativel
 - Compatible OCaml versions: 4.12 or later
 - Additional dependencies:
   - [RocqCandy](https://github.com/ku-sldg/rocq-candy)
-  - [RocqCandy](https://github.com/ku-sldg/rocq-candy)
+  - [EasyBakeCakeML](https://github.com/Durbatuluk1701/EasyBakeCakeML)
   - [Dune](https://dune.build) 3.17 or later
 - Related publication(s): none
 
