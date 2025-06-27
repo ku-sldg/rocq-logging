@@ -1,5 +1,5 @@
 From Stdlib Require Import String.
-From EasyBakeCakeML Require Import CakeML_TextIO.
+From EasyBakeCakeML.CakeML_Stdlib Require Import All.
 
 Inductive LogLevel : Type :=
 | Debug
