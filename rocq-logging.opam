@@ -1,0 +1,31 @@
+# This file was generated from `meta.yml`, please do not edit manually.
+# Follow the instructions on https://github.com/coq-community/templates to regenerate.
+
+opam-version: "2.0"
+maintainer: "30wthomas@ku.edu"
+version: "0.1.0"
+
+homepage: "https://github.com/ku-sldg/rocq-logging"
+dev-repo: "git+https://github.com/ku-sldg/rocq-logging.git"
+bug-reports: "https://github.com/ku-sldg/rocq-logging/issues"
+license: "CC-BY-SA-4.0"
+
+synopsis: "A logging library for Rocq"
+description: """
+This library provides logging utilities for Rocq, as well as methods for natively extracting logging events from Rocq code to a target language."""
+
+build: ["dune" "build" "-p" name "-j" jobs]
+depends: [
+  "ocaml" { >= "4.12~" }
+  "dune" {>= "3.17"}
+  "coq" 
+  "rocq-candy" { >= "0.2.1" }
+  "rocq-candy" { >= "0.2.1" }
+]
+
+tags: [
+  "logpath:rocq-logging"
+]
+authors: [
+  "Will Thomas <30wthomas@ku.edu>"
+]
