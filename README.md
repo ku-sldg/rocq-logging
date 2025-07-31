@@ -19,7 +19,7 @@ This library provides logging utilities for Rocq, as well as methods for nativel
 - Author(s):
   - Will Thomas
 - License: [Creative Commons Attribution Share Alike 4.0 International](LICENSE)
-- Compatible Coq versions: 8.20 later
+- Compatible Rocq/Coq versions: 8.20 later
 - Compatible OCaml versions: 4.12 or later
 - Additional dependencies:
   - [RocqCandy](https://github.com/ku-sldg/rocq-candy)

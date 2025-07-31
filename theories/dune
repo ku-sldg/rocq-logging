@@ -6,7 +6,7 @@
 (coq.theory
  (name RocqLogging)
  (package rocq-logging)
- 
+ (theories Stdlib RocqCandy EasyBakeCakeML)
  
  (synopsis "A logging library for Rocq"))
 
